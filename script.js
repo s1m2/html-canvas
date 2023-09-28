@@ -90,7 +90,7 @@ class Circle {
 
 const circleArray = [];
 
-for (let i = 0; i < 100; i++) {
+for (let i = 0; i < 600; i++) {
   let radius = Math.random() * 7 + 1;
   let x = Math.random() * (window.innerWidth - radius * 3) + radius;
   let y = Math.random() * (window.innerWidth - radius * 3) + radius;
