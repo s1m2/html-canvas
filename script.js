@@ -54,9 +54,9 @@ class Circle {
   }
 
   update() {
-    if (this.x + this.radius > window.innerWidth || this.x - this.radius < 0)
+    if (this.x + this.radius > window.innerWidth || this.x - this.radius < 0) // If the circle hits the left or right side of the screen and revese the velocity
       this.dx = -this.dx;
-    if (this.y + this.radius > window.innerHeight || this.y - this.radius < 0)
+    if (this.y + this.radius > window.innerHeight || this.y - this.radius < 0) // If the circle hits the top or bottom of the screen and revese the velocity
       this.dy = -this.dy;
 
     this.x += this.dx;
